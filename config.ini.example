@@ -1,9 +1,9 @@
 ;push_devicecode 从bark里面获取
 [Settings]
-collectible_name = 恶相花
+collectible_name =佛泪参
 like_operation = 1
-goods_name_1 = 恶相花
-goods_name_2 = 恶相果
+goods_name_1 = 佛泪参
+goods_name_2 = 佛泪须
 need_push = 1
 push_devicecode = 1234567890
 

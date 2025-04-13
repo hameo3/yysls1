@@ -14,7 +14,8 @@ import globals  # 新增导入
 
 # 读取配置
 config = configparser.ConfigParser()
-with open("config.ini", "r", encoding="utf-8") as config_file:
+config_path = r"E:\code\yysls1\config.ini.example"  # 修改为直接路径
+with open(config_path, "r", encoding="utf-8") as config_file:
     config.read_file(config_file)
 COLLECTIBLE_NAME = config["Settings"]["collectible_name"]
 LIKE_OPERATION = int(config["Settings"]["like_operation"])
